@@ -5,9 +5,9 @@ https://www.codewars.com/kata/52b7ed099cdc285c300001cd
 */
 
 function sumIntervals(intervals){
-  var numArray = [];
-  for (var i = 0; i < intervals.length; i++) {
-    for (var j = intervals[i][0]; j < intervals[i][1]; j++) {
+  const numArray = [];
+  for (let i = 0, len = intervals.length; i < len; i++) {
+    for (let j = intervals[i][0]; j < intervals[i][1]; j++) {
       if (numArray.indexOf(j) === -1) numArray.push(j);
     }
   }

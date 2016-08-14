@@ -7,7 +7,7 @@ https://www.codewars.com/kata/52774a314c2333f0a7000688
 */
 
 function validParentheses(parens){
-  let str1 = '()';
+  const str1 = '()';
   let counter = 0;
   while (parens.length) {
     (parens.indexOf(str1) !== -1) ? parens = parens.replace(str1, '') : counter++;

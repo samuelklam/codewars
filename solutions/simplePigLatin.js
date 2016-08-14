@@ -5,9 +5,9 @@ https://www.codewars.com/kata/simple-pig-latin/javascript
 */
 
 function pigIt(str){
-  var stringArray = str.split(' ');
-  for (var i = 0; i < stringArray.length; i++) {
-    stringArray[i] = stringArray[i].substring(1) + stringArray[i][0] + 'ay';
-  }
+  const stringArray = str.split(' ');
+  stringArray.forEach((currVal, idx) => {
+    stringArray[idx] = currVal.substring(1) + currVal[0] + 'ay';
+  });
   return stringArray.join(' ');
 }

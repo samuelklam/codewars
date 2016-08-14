@@ -5,7 +5,7 @@ https://www.codewars.com/kata/mergesort-merge-function/javascript
 */
 
 function mergesorted(a, b) {
-  var merged = [],
+  let merged = [],
       l = 0,
       r = 0;
 
