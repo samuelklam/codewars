@@ -16,6 +16,7 @@ Repo containing completed [Codewars](https://www.codewars.com/) problems and som
 - [Adding Big Numbers](https://www.codewars.com/kata/525f4206b73515bffb000b21)
 - [Sum of Intervals](https://www.codewars.com/kata/52b7ed099cdc285c300001cd)
 - [Sudoku Solution Validator](https://www.codewars.com/kata/529bf0e9bdf7657179000008)
+- [Sum Strings as Numbers](https://www.codewars.com/kata/5324945e2ece5e1f32000370)
 
 ### 5 Kyu
 - [Valid Parenthesis](https://www.codewars.com/kata/52774a314c2333f0a7000688)
