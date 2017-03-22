@@ -1,8 +1,8 @@
-/* Description --------------
-Move the first letter of each word to the end of it, then add 'ay' to the end of the word.
-
-https://www.codewars.com/kata/simple-pig-latin/javascript
-*/
+/*
+ * Move the first letter of each word to the end of it, then add 'ay' to the end of the word.
+ *
+ * https://www.codewars.com/kata/simple-pig-latin/javascript
+ */
 
 function pigIt(str){
   const stringArray = str.split(' ');

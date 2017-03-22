@@ -1,8 +1,8 @@
-/* Description --------------
-Implement the "merge" function from MergeSort.
-
-https://www.codewars.com/kata/mergesort-merge-function/javascript
-*/
+/*
+ * Implement the "merge" function from MergeSort.
+ *
+ * https://www.codewars.com/kata/mergesort-merge-function/javascript
+ */
 
 function mergesorted(a, b) {
   let merged = [],
